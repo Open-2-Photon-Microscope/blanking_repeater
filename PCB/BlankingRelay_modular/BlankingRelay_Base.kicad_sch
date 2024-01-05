@@ -2187,10 +2187,10 @@
   (symbol (lib_id "Device:R") (at 66.04 183.642 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 926878bb-c7f0-49a6-b4c9-05654ce54deb)
-    (property "Reference" "R98" (at 66.04 181.102 90)
+    (property "Reference" "R6" (at 66.04 181.102 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 66.04 183.515 90)
+    (property "Value" "330" (at 66.04 183.515 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" (at 66.04 185.42 90)
@@ -2204,7 +2204,7 @@
     (instances
       (project "BlankingRelay_Base"
         (path "/a506f4bc-2484-4c97-a48e-670fa94268b6"
-          (reference "R98") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2712,10 +2712,10 @@
   (symbol (lib_id "Device:R") (at 59.69 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d89c22fa-eaa0-4a90-87c0-16aa7ff6940a)
-    (property "Reference" "R99" (at 62.23 189.865 90)
+    (property "Reference" "R5" (at 62.23 189.865 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "330" (at 59.69 189.865 90)
+    (property "Value" "1k" (at 59.69 189.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" (at 57.912 189.865 90)
@@ -2729,7 +2729,7 @@
     (instances
       (project "BlankingRelay_Base"
         (path "/a506f4bc-2484-4c97-a48e-670fa94268b6"
-          (reference "R99") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
